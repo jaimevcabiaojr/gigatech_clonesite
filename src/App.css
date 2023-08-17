@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,122 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+
+.hero {
+  background-color: rgba(0,0,0,.6);
+  color: #fff;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 4rem;
 }
+
+.main::before{
+  content: '';
+  background: url('../assets/bg.PNG') no-repeat center
+   center/cover;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+
+}
+.hero .content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+
+}
+
+.hero .search-text {
+  margin: 1.5 rem;
+  font-size: 1.4rem;
+
+}
+
+@media screen and (max-width: 940px){
+.hero{
+  height: 70vh;
+}
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+}
+
+.AppBar {
+  background-color: aqua;
+}
+/* 
+.main {
+  width: 100%;
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.main > div {
+  display: flex;
+  justify-content: center;
+}
+
+.main > div p {
+  margin: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.main .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.2rem;
+  padding: 1rem;
+}
+
+.main img {
+  width: 100%;
+}
+
+@media screen and (max-width:940px) {
+  .best {
+      margin: 1rem 0;
+  }
+
+  .main > div p {
+      margin: 1rem;
+      font-size: 1rem;
+  }
+
+  .main .container {
+      grid-template-columns: 1fr;
+      grid-gap: .5rem;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .best > div p {
+      margin: 1rem .5rem;
+  }
+}
+
+ */
+
